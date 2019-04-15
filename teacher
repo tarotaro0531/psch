@@ -1,0 +1,81 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<meta charset="utf-8" />
+<title>板橋高中老師登記提早進德</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="板橋高中老師登記提早進德" />
+<meta property="og:description" content="板橋高中老師登記提早進德" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+</head>
+<body>
+    <div class="ts overlapped right sidebar vertical menu">
+        <a class="right aligned item"><i class="close icon"></i></a>
+    </div>
+    <div class="ts fluid secondary menu" id="bannerMenu">
+        <div class="ts container">
+            <div class="tablet or large device only right menu">
+                <a class="item" href="http://www.pcsh.ntpc.edu.tw/">本校首頁</a>
+                <a class="item" href="">生輔組心情留言板</a>
+            </div>
+            <a class="mobile only right item"><i class="sidebar icon"></i></a>
+        </div>
+    </div>
+    <header class="ts center aligned large fluid slate" id="banner">
+    <nav class="ts fluid pointing secondary menu" style="visibility: hidden;" id="defaultMenu">
+    </nav>
+    <section class="ts fluid container" id="clubIntro">
+        <div class="ts inner container">
+            <div class="ts huge center aligned header">
+                登記提早進德需要人數
+                <div class="sub header">請勿洩漏帳號密碼，影響學生權益</div>
+				<div class="sub header">相關資料請填寫完善，謝謝配合</div>
+				<div class="sub header">開放登記時段:中原標準時間晚上7:00到12:00</div>
+				<div class="sub header">僅限登記隔天提早進德所需人數</div>
+            </div>
+            <div class="parallax2"></div>
+            <div class="ts stackable grid">
+                <nobr>
+                    <div class="ten wide column">
+                        <div class="ts padded flatted borderless inverted segment" id="registration" style="margin-left:150px;margin-top:60px;width:800px;">
+                            <blockquote>
+                               <p>您所屬的單位:</p><select style="background-color:#FFFFBB">
+                                  <option>生輔組</option>
+                                  <option>衛生組</option>
+								  <option>教務處</option>
+								  <option>總務處</option>
+								  <option>輔導室</option>
+								  <option>圖書館</option>
+								  <option>資媒組</option>
+                               </select>
+							   <p>選擇時段:</p>
+							   <select style="background-color:#FFFFBB">
+                                  <option>12:00~12:30</option>
+                                  <option>12:30~13:00</option>
+                               </select>
+							  <br>
+							  <br>
+							   <form>需要進德人數(例:20)：<input type="text" name="人數" style="background-color:#CCDDFF;"></form>
+                            </blockquote>
+                            <script language="javascript">
+                           function ShowMeDate() {
+　                         var Today=new Date();
+　                         alert("謝謝填寫，我們將依據您所填得資料供學生登記，請於進德實施完畢後至名單勾選出席狀況，謝謝");
+                                  }
+                              </script>
+                         <button onclick="ShowMeDate()">完成登記</button>
+                        </div>
+                    </div>
+                </nobr>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+</html>
