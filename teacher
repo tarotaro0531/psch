@@ -63,6 +63,10 @@
 							  <br>
 							  <br>
 							   <form><font size=5>需要進德人數(例:20)：<input type="number" name="人數" style="background-color:#CCDDFF;border-radius:20px;height:30px;"></font></form>
+							   <br>
+							   <br>
+							   <br>
+							   <input type="submit" style="background-color:white;height:35px;width:80px;border-radius:10px;margin-right:10px"></input>
                             </blockquote>
                             <script language="javascript">
                            function ShowMeDate() {
@@ -70,7 +74,6 @@
 　                         alert("謝謝填寫，我們將依據您所填得資料供學生登記，請於進德實施完畢後至名單勾選出席狀況，謝謝");
                                   }
                               </script>
-                         <button onclick="ShowMeDate()"  style="background-color:white;height:35px;width:80px;border-radius:10px">完成登記</button>
                         </div>
                     </div>
                 </nobr>
