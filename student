@@ -34,8 +34,9 @@
                 登記提早進德
                 <div class="sub header">請注意3C產品使用時間，違規者視同放棄資格</div>
 				<div class="sub header">相關資料請填寫完善，謝謝配合</div>
-				<div class="sub header">當天開放時段:中原標準時間(GMT+8)早上8:00到11:00</div>
-				<div class="sub header">僅限登記當天提早進德</div>
+				<div class="sub header" style="background-color:red;"><p style="color:yellow;">當天開放時段:中原標準時間(GMT+8)早上8:00到11:00</p></div>
+				<div class="sub header">僅限登記當天提早進德，逾時不候</div>
+		
             </div>
             <div class="parallax2"></div>
             <div class="ts stackable grid">
@@ -43,22 +44,25 @@
                     <div class="ten wide column">
                         <div class="ts padded flatted borderless inverted segment" id="registration" style="margin-left:150px;margin-top:60px;width:800px;">
                             <blockquote>
-                               <form style="margin-left:70px" action="123.php" method="get">
-							   班級(例:一年十三班請輸入113)：<input type="number" name="class_id" style="background-color:#CCDDFF;">
+                               <form style="margin-left:100px" action="123.php" method="get">
+							   <font size=5>班級(例:一年十三班請輸入113)：</font><input type="number" name="class_id" style="background-color:#CCDDFF;border-radius:20px;height:30px;">
 							   <br>
-							   座號(請輸入阿拉伯數字，例:69)：<input type="number" name="number" style="background-color:#CCDDFF;">
 							   <br>
-							   學號(例:710999)：<input type="number" name="student" style="background-color:#CCDDFF;">
+							   <font size=5>座號(請輸入阿拉伯數字，例:69)：</font><input type="number" name="number" style="background-color:#CCDDFF;border-radius:20px;height:30px;">
 							   <br>
-							   <select style="background-color:#FFFFBB">
-                                  <option>我要消一支</option>
-                               </select>
-							   <p>選擇時段:</p>
-							   <select style="background-color:#FFFFBB">
+							   <br>
+							   <font size=5>學號(例:710999)：</font><input type="number" name="student" style="background-color:#CCDDFF;border-radius:20px;height:30px;">
+							   <br>
+							   <br>
+							   <p style="margin-right:80px;">選擇進德時段:</p>
+							   <select style="background-color:#FFFFBB;margin-right:80px;height:40px;width:200px">
                                   <option>12:00~12:30</option>
                                   <option>12:30~13:00</option>
                                </select>
-							   <input type="submit"></input>
+							   <br>
+							   <br>
+							   <p style="margin-right:80px">注意:提交後將無法更改，請確定資料無誤再送出</p>
+							   <input type="submit" style="background-color:white;height:35px;width:80px;border-radius:10px;margin-right:70px"></input>
 							   </form>
                             </blockquote>
                             <script language="javascript">
